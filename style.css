@@ -32,15 +32,15 @@ flex-wrap: wrap;
 justify-content: center;
 }
 
-#background{
+/* #background{
     background-color: black;
-}
-
-
-/* body {
-    background: #648381;
-    background: -webkit-linear-gradient(to right, #648381, #e5ebea);
-    background: linear-gradient(to right, #648381, #e5ebea);
-    min-height: 100vh;
 } */
+
+
+body {
+    background: gray;
+    background: -webkit-linear-gradient(to right, gray, white);
+    background: linear-gradient(to right, grey, white);
+    min-height: 100vh;
+}
 
