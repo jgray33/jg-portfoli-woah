@@ -1,0 +1,46 @@
+* {
+    font-family: "lato";
+  }
+  
+  :root {
+    --darkgreen: #648381;
+    --light-green: #e5ebea;
+    --pink: #ddb8a6;
+      }
+
+      
+.profile-header {
+    transform: translateY(5rem);
+}
+
+#name {
+    font-size: 50px;
+}
+
+#title {
+    font-size: 25;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+#container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+#background{
+    background-color: black;
+}
+
+
+/* body {
+    background: #648381;
+    background: -webkit-linear-gradient(to right, #648381, #e5ebea);
+    background: linear-gradient(to right, #648381, #e5ebea);
+    min-height: 100vh;
+} */
+

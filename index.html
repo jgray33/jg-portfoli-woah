@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/jquery-3.3.1.slim.min.js" />
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet" />
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/3bef4499fd.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="background">
+    <div class="row py-5 px-4" style="background-color:grey">
+        <div class="col-xl-5 col-md-6 col-sm-10 mx-auto">
+            <div class="bg-white shadow rounded overflow-hidden">
+                <div class="px-4 pt-0 pb-4 bg-dark">
+                    <div class="media align-items-end profile-header">
+                        <div class="profile mr-3">
+                            <img src="/assets/Julia pastry.jpg" alt="Julia Gray" width="260"
+                                class="rounded mb-2 img-thumbnail" />
+                        </div>
+                        <div class="media-body mb-5 text-white">
+                            <h4 id="name" class="mt-0 mb-0">Julia Gray</h4>
+                            <h4 id="title" class="mt-0 mb-0">Full-stack Web Developer</h4>
+                            <p class="small mb-4">
+                                <i class="fa fa-map-marker mr-2"></i>Birmingham, GB
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Links and logos -->
+                <div class="bg-light p-4 d-flex justify-content-end text-center">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                            <a href="https://github.com/jgray33">
+                                <h5 class="font-weight-bold mb-0 d-block">
+                                    <i class="fa-brands fa-github text-muted"></i>
+                                </h5>
+                                <small class="text-muted"> Github</small>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/julia-g-5a13b168/">
+                                <h5 class="font-weight-bold mb-0 d-block">
+                                    <i class="fa-brands fa-linkedin text-muted"></i>
+                                </h5>
+                                <small class="text-muted"> LinkedIn</small>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <h5 class="font-weight-bold mb-0 d-block">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </h5>
+                            <small class="text-muted"> C.V</small>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="mailto:julia.gray30@gmail.com">
+                                <h5 class="font-weight-bold mb-0 d-block">
+                                    <i class="fa-solid fa-envelope text-muted"></i>
+                                </h5>
+                                <small class="text-muted"> Contact</small>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- About me -->
+                <div class="py-4 px-4">
+                    <div class="py-4 ">
+                        <h5 class="mb-3">About me</h5>
+                        <div class="p-4 bg-light rounded shadow-sm">
+                            <p class="mb-0">
+                                I am a communications professional currently working in public
+                                affairs and stakeholder management. I have the fundamental
+                                concepts of web development; HTML, CSS, Javascript, jQuery,
+                                Node.js, AJAX, React
+                            </p>
+                            <ul class="list-inline small text-muted mt-3 mb-0"></ul>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                        <h5 class="mb-0">My work</h5>
+                        <a href="https://github.com/jgray33" class="btn btn-link text-muted">See more</a>
+                    </div>
+                    <div class="row" id="container">
+
+                        <!-- First card -->
+                        <div class="flex-box">
+                            <div class="list-inline-item">
+                                <div class="card bg-light rounded shadow-sm" style="width: 18rem" id="card1">
+                                    <img class="card-img-top" src="/assets/show-me-more.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight:bold">Show me more</h5>
+                                        <p class="card-text">
+                                            A website that cuts out all the crap when trying to stalk actors form your
+                                            favorite films. Just search the film and find that actors' key info. Powered
+                                            by
+                                            javascript.
+                                        </p>
+                                        <p>Visit website</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Second card -->
+                            <div class="list-inline-item">
+                                <div class="card bg-light rounded shadow-sm" style="width: 18rem" id="card2">
+                                    <img class="card-img-top img-fluid rounded shadow-sm"
+                                        src="/assets/employee-tracker.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-weight:bold">Employee Tracker</h5>
+                                        <p class="card-text">
+                                            Built in Node.js, this handle little programme allows the user to keep a
+                                            track
+                                            of their employees' juicy details such as their salary and job title.
+                                        </p>
+                                        <p>Visit website</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Other cards if needed to be added -->
+                    <!-- <div class="col-lg-6 pr-lg-1 mb-2 hide">
+                <div class="card bg-light rounded shadow-sm" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="/assets/coding-quiz.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-weight:bold">Coding Quiz</h5>
+                    <p class="card-text">
+                      Say goodbye to boring Saturday nights with this dynamic Coding Quiz. Challenge all your buddies to beat your high score and win the ultimate prize - pride! 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 pl-lg-1 mb-2 hide">
+                <div class="card bg-light rounded shadow-sm" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="/assets/weather-dashboard.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-weight:bold">Weather App</h5>
+                    <p class="card-text">
+                      Wish it wasn't shitting it down? Use this handy weather app to remind yourself that it's just the UK that has pants weather all years round! 
+                    </p>
+                  </div>
+                </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+<script src="/script.js"></script>
+
+</html>
