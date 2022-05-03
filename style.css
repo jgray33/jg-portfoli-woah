@@ -25,6 +25,10 @@
     visibility: hidden;
 }
 
+.card-title{
+    font-weight: bolder;
+}
+
 .css-container .caption-background {
     position: absolute; /* Position the background text */
     bottom: 0; 
@@ -36,10 +40,10 @@
   }
 
 
-.background {
+/* .background {
     background-color: rgba(0,0,0,.5);
     color: #fff;
-    }
+    } */
 
 
     .image {
