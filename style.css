@@ -1,6 +1,6 @@
 * {
     font-family: "lato";
-  }
+   }
   
   :root {
     --darkgreen: #648381;
@@ -25,22 +25,25 @@
     visibility: hidden;
 }
 
-#container{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-}
+.css-container .caption-background {
+    position: absolute; /* Position the background text */
+    bottom: 0; 
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
 
-/* #background{
-    background-color: black;
-} */
+
+.background {
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    }
 
 
-body {
-    background: gray;
-    background: -webkit-linear-gradient(to right, gray, white);
-    background: linear-gradient(to right, grey, white);
-    min-height: 100vh;
-}
-
+    .image {
+        max-width: 100%;
+        height: auto;
+        width: auto\9; /* ie8 */
+    }
